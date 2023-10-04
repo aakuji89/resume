@@ -1,0 +1,136 @@
+ @font-face {
+    font-family: 'my font';
+    src: url(sacra.ttf );
+ }
+   
+@font-face { 
+    font-family: 'your font';
+    src: url(montse.ttf);
+    
+ }
+ body{
+    margin: 0;
+    text-align: center;
+    font-family:'your font';
+    src: url(merri.ttf);
+    font-size: large;
+  }
+  
+  .top-container{
+    background-color:  #c5fcf2;
+    padding-top: 100px;
+   
+}
+.middle-container {
+   padding: 100px 0;
+    }
+   
+.bottom-container{
+    background-color: #66bfbf;
+   
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family:'my font';
+    src: url(sacra.ttf);
+    font-size: 90px;
+    color: #66bfbf;
+   
+}
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'your font';
+    src: url(montse.ttf);
+    color:#66bfbf ;
+    font-weight: normal;
+}
+h3{
+    font-family: 'your font';
+    src: url(montse.ttf);
+    color:#11999e ;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+   
+
+}
+.beta-img{
+    width: 25%;
+    float:right ;
+    margin-left: 30px;
+}
+.intro{
+    width:30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+    
+hr{
+    border: dotted #eaf6f6 6px;
+    width: 4%;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'your font';
+    src: url(montse.ttf);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+  a{
+    color: #11999E;
+    margin:10px 20px;
+    font-family: 'your font';
+    src: url(montse.ttf);
+  }
+  a:hover{
+    color: #eaf6f6;
+
+  }
